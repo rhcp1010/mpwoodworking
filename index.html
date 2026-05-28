@@ -101,17 +101,14 @@
       position: absolute;
       bottom: 8rem; left: 5rem;
       z-index: 4;
-      animation: fadeUp 0.8s ease both;
     }
     .hero-overlay-text .hero-eyebrow { margin-bottom: 1rem; }
     .hero-overlay-text .hero-heading { margin-bottom: 2rem; }
     .hero-logo {
-      position: absolute;
-      bottom: 15rem;
-      left: 5rem;
-      height: 200px;
+      display: block;
+      height: 180px;
       width: auto;
-      z-index: 4;
+      margin-bottom: 1.5rem;
       filter: brightness(0) invert(1) sepia(1) saturate(0.5);
     }
     .hero-overlay-text .hero-ctas { display: flex; gap: 1.2rem; }
@@ -790,9 +787,8 @@
       <button class="carousel-btn carousel-btn-next" id="carouselNext" aria-label="Next">&#8594;</button>
     </div>
     <div class="hero-image-overlay"></div>
-    <img class="hero-logo" src="MP_WW_D_BROWN_TRANSP.png" alt="MP Woodworking" />
-    <!-- Centered overlay text -->
     <div class="hero-overlay-text">
+      <img class="hero-logo" src="MP_WW_D_BROWN_TRANSP.png" alt="MP Woodworking" />
       <p class="hero-eyebrow" style="color:var(--sand);">Custom Woodworking</p>
       <div class="hero-ctas">
         <a href="#portfolio" class="btn-primary">View Our Work</a>
